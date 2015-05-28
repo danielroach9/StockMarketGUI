@@ -75,4 +75,8 @@ public class Stock {
     // Might want to change the number of public shares
     /*public int setMaxShares(int newMax) { this.maxShares = newMax; }*/
 
+    public static void main(String[] args) {
+
+        System.out.println("Hi");
+    }
 }
