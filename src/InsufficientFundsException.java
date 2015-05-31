@@ -5,9 +5,5 @@
  */
 public class InsufficientFundsException extends Exception {
 
-    public InsufficientFundsException() {
-
-        System.err.println("User does not have insufficient funds");
-    }
-
+    public InsufficientFundsException(String msg) { super(msg); }
 }

@@ -5,8 +5,5 @@
  */
 public class StockDoesNotExistException extends Exception {
 
-    public StockDoesNotExistException() {
-
-        System.err.println("Stock does not exist in the system.");
-    }
+    public StockDoesNotExistException(String msg) { super(msg); }
 }
